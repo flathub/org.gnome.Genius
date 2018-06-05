@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Genius",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.26",
+    "runtime-version": "3.28",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-genius",
     "rename-desktop-file": "gnome-genius.desktop",
@@ -23,20 +23,38 @@
     ],
     "modules": [
         {
-            "name": "vte",
-            "rm-configure": true,            
+            "name": "gtksourceview2",
+            "config-opts": ["--enable-introspection=no"],
             "sources": [
                 {
-                "type": "archive",
-                "url": "https://download.gnome.org/sources/vte/0.26/vte-0.26.2.tar.bz2",
-                "sha256": "f02c350340266c9515a98b8f69c72b4bdc53b352cd053624a63a7cb97ddec9bd"
+                    "type": "archive",
+                    "url": "http://download.gnome.org/sources/gtksourceview/2.11/gtksourceview-2.11.2.tar.bz2",
+                    "sha256": "f9594d8f18f6bcc3d72da4051636d7a8b4d3f6d29d6827309b262c9483644994"
                 },
                 {
-                    "type": "script",
-                    "dest-filename": "autogen.sh",
-                    "commands": [
-                        "autoreconf -vfi"
-                    ]
+                    "type": "patch",
+                    "path": "0001-Force-gtk2.patch"
+                },
+                /* patches come from fedora */
+                {
+                    "type": "patch",
+                    "path": "gtksourceview-2.11.2-cflags.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "gtksourceview-2.11-fix-GCONST-def.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "gtksourceview-2.11-add-libs.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "gtksourceview-2.11-glib-unicode-constant.patch"
+                },
+                {
+                    "type": "shell",
+                    "commands": [ "cp -p /usr/share/automake-*/config.{sub,guess} ." ]
                 }
             ]
         },
@@ -55,8 +73,8 @@
             "sources": [
                 {
                 "type": "archive",
-                "url": "https://download.gnome.org/sources/genius/1.0/genius-1.0.23.tar.xz",
-                "sha256": "912e1c1beadee185614036c6808a974157b2009fe315b249efa2aa06a5ac6f4b"
+                "url": "https://download.gnome.org/sources/genius/1.0/genius-1.0.24.tar.xz",
+                "sha256": "772f95f6ae4716d39bb180cd50e8b6b9b074107bee0cd083b825e1e6e55916b6"
                 },
                 {
                     "type": "file",

@@ -44,6 +44,10 @@
       <image type="source">http://www.jirka.org/images/genius-1.0.19-lorenz-fs8.png</image>
     </screenshot>
   </screenshots>
+  <releases>
+    <release date="2018-05-15" version="1.0.24"/>
+    <release date="2017-05-10" version="1.0.23"/>
+  </releases>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">none</content_attribute>
     <content_attribute id="violence-fantasy">none</content_attribute>
