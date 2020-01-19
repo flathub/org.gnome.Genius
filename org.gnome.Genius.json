@@ -1,20 +1,16 @@
 {
     "app-id": "org.gnome.Genius",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.28",
+    "runtime-version": "3.34",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-genius",
     "rename-desktop-file": "gnome-genius.desktop",
     "rename-icon": "gnome-genius",
     "finish-args": [
-        "--share=ipc", "--socket=x11",
-        "--filesystem=xdg-run/dconf", "--filesystem=~/.config/dconf:ro",
-        "--talk-name=ca.desrt.dconf", "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+        "--share=ipc",
+        "--socket=x11",
+        "--persist=.gnome2"
     ],
-    "build-options" : {
-        "cflags": "-O2 -g",
-        "cxxflags": "-O2 -g"
-    },
     "cleanup": [
         "/include", "/lib/pkgconfig",
         "/share/pkgconfig", "/share/aclocal",
@@ -22,6 +18,8 @@
         "*.la", "*.a"
     ],
     "modules": [
+        "shared-modules/intltool/intltool-0.51.json",
+        "shared-modules/gtk2/gtk2.json",
         {
             "name": "gtksourceview2",
             "config-opts": ["--enable-introspection=no"],
@@ -59,12 +57,36 @@
             ]
         },
         {
-            "name": "flex",
+            "name": "ncurses",
+            "no-autogen": true,
+            "config-opts": [
+                "--prefix=${FLATPAK_DEST}"
+            ],
+            "make-install-args": [
+                "install.libs"
+            ],
+            "cleanup": [
+                "/bin",
+                "/include",
+                "/share/man",
+                "/lib/*.a",
+                "/lib/*.la"
+            ],
             "sources": [
                 {
-                "type": "archive",
-                "url": "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz",
-                "sha256": "e87aae032bf07c26f85ac0ed3250998c37621d95f8bd748b31f15b33c45ee995"
+                    "type": "archive",
+                    "url": "https://ftp.gnu.org/gnu/ncurses/ncurses-6.1.tar.gz",
+                    "sha256": "aa057eeeb4a14d470101eff4597d5833dcef5965331be3528c08d99cebaa0d17"
+                }
+            ]
+        },
+        {
+            "name": "mpfr",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.mpfr.org/mpfr-current/mpfr-4.0.2.tar.xz",
+                    "sha256": "1d3be708604eae0e42d578ba93b390c2a145f17743a744d8f3f8c2ad5855a38a"
                 }
             ]
         },
