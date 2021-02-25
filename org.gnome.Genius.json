@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Genius",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.36",
+    "runtime-version": "3.38",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-genius",
     "rename-desktop-file": "gnome-genius.desktop",
@@ -40,8 +40,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.gnu.org/gnu/ncurses/ncurses-6.1.tar.gz",
-                    "sha256": "aa057eeeb4a14d470101eff4597d5833dcef5965331be3528c08d99cebaa0d17"
+                    "url": "https://ftp.gnu.org/gnu/ncurses/ncurses-6.2.tar.gz",
+                    "sha256": "30306e0c76e0f9f1f0de987cf1c82a5c21e1ce6568b9227f7da5b71cbea86c9d"
                 }
             ]
         },
@@ -50,18 +50,19 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.mpfr.org/mpfr-current/mpfr-4.0.2.tar.xz",
-                    "sha256": "1d3be708604eae0e42d578ba93b390c2a145f17743a744d8f3f8c2ad5855a38a"
+                    "url": "https://www.mpfr.org/mpfr-current/mpfr-4.1.0.tar.xz",
+                    "sha256": "0c98a3f1732ff6ca4ea690552079da9c597872d30e96ec28414ee23c95558a7f"
                 }
             ]
         },
         {
             "name": "amtk",
+            "buildsystem": "meson",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/amtk/5.0/amtk-5.0.2.tar.xz",
-                    "sha256": "71cc891fbaaa3d0cb87eeef9a2f7e1a2acab62f738d09ea922fb4b9ea2f84f86"
+                    "url": "https://download.gnome.org/sources/amtk/5.3/amtk-5.3.1.tar.xz",
+                    "sha256": "d5aa236c5d71dc41aa4674f345560a67a27f21c0efc97c9b3da09cb582b4638b"
                 }
             ]
         },
@@ -71,8 +72,23 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gtksourceview/4.4/gtksourceview-4.4.0.tar.xz",
-                    "sha256": "9ddb914aef70a29a66acd93b4f762d5681202e44094d2d6370e51c9e389e689a"
+                    "url": "https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.0.tar.xz",
+                    "sha256": "00a19121500cedf1bae97f35af865d839841fd785d9facf188498e13975b4e1a"
+                }
+            ]
+        },
+        {
+            "name" : "vte",
+            "buildsystem" : "meson",
+            "config-opts": [
+                "-Ddocs=false",
+                "-Dvapi=false"
+            ],
+            "sources" : [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/vte/0.62/vte-0.62.3.tar.xz",
+                    "sha256": "f5770285a52cc23a3c0428a43d492b7c0ba458ce7b8a73768a7d4f1e8a7db3b4"
                 }
             ]
         },
@@ -81,8 +97,8 @@
             "sources": [
                 {
                 "type": "archive",
-                "url": "http://ftp.5z.com/pub/genius/genius-1.0.25.tar.xz",
-                "sha256": "0e92c9a22f903012ef331c20ada5b30b6c666c0f11753958b8e38d720deb6e0c"
+                "url": "http://ftp.5z.com/pub/genius/genius-1.0.26.tar.xz",
+                "sha256": "d115ed3f8278580308374dd8325de415b528edc1492c5e775eae2a3b65ad6d16"
                 },
                 {
                     "type": "file",
