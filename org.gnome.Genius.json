@@ -11,7 +11,7 @@
         "--socket=x11",
         "--socket=wayland",
         "--own-name=org.gnome.genius",
-        "--persist=.gnome2"
+        "--persist=.genius"
     ],
     "cleanup": [
         "/include", "/lib/pkgconfig",
