@@ -53,6 +53,6 @@
     <release date="2018-05-15" version="1.0.24"/>
     <release date="2017-05-10" version="1.0.23"/>
   </releases>
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
   <update_contact>nick_at_nedrichards.com</update_contact>
 </component>

@@ -14,10 +14,15 @@
         "--persist=.genius"
     ],
     "cleanup": [
-        "/include", "/lib/pkgconfig",
-        "/share/pkgconfig", "/share/aclocal",
-        "/man", "/share/man", "/share/gtk-doc",
-        "*.la", "*.a"
+        "/include",
+        "/lib/pkgconfig",
+        "/share/pkgconfig",
+        "/share/aclocal",
+        "/man",
+        "/share/man",
+        "/share/gtk-doc",
+        "*.la",
+        "*.a"
     ],
     "modules": [
         "shared-modules/intltool/intltool-0.51.json",
@@ -78,13 +83,13 @@
             ]
         },
         {
-            "name" : "vte",
-            "buildsystem" : "meson",
+            "name": "vte",
+            "buildsystem": "meson",
             "config-opts": [
                 "-Ddocs=false",
                 "-Dvapi=false"
             ],
-            "sources" : [
+            "sources": [
                 {
                     "type": "archive",
                     "url": "https://download.gnome.org/sources/vte/0.62/vte-0.62.3.tar.xz",
@@ -96,9 +101,9 @@
             "name": "genius",
             "sources": [
                 {
-                "type": "archive",
-                "url": "http://ftp.5z.com/pub/genius/genius-1.0.26.tar.xz",
-                "sha256": "d115ed3f8278580308374dd8325de415b528edc1492c5e775eae2a3b65ad6d16"
+                    "type": "archive",
+                    "url": "http://ftp.5z.com/pub/genius/genius-1.0.26.tar.xz",
+                    "sha256": "d115ed3f8278580308374dd8325de415b528edc1492c5e775eae2a3b65ad6d16"
                 },
                 {
                     "type": "file",
