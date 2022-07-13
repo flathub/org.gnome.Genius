@@ -11,7 +11,8 @@
         "--socket=x11",
         "--socket=wayland",
         "--own-name=org.gnome.genius",
-        "--persist=.genius"
+        "--persist=.genius",
+        "--persist=.gnome2"
     ],
     "cleanup": [
         "/include",
