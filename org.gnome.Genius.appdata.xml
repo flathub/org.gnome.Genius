@@ -48,11 +48,12 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.0.27" date="2021-10-27"/>
     <release date="2021-02-19" version="1.0.26"/>
     <release date="2020-03-05" version="1.0.25"/>
     <release date="2018-05-15" version="1.0.24"/>
     <release date="2017-05-10" version="1.0.23"/>
   </releases>
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
   <update_contact>nick_at_nedrichards.com</update_contact>
 </component>
