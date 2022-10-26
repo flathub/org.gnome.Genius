@@ -120,8 +120,8 @@
                         "name": "vte"
                     },
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/vte/0.68/vte-0.68.0.tar.xz",
-                    "sha256": "13e7d4789ca216a33780030d246c9b13ddbfd04094c6316eea7ff92284dd1749"
+                    "url": "https://download.gnome.org/sources/vte/0.70/vte-0.70.1.tar.xz",
+                    "sha256": "1f4601cbfea5302b96902208c8f185e5b18b259b5358bc93cf392bf59871c5b6"
                 }
             ]
         },
