@@ -82,8 +82,8 @@
                         "name": "amtk"
                     },
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/amtk/5.4/amtk-5.4.1.tar.xz",
-                    "sha256": "7ebabc429b0eebb2b32360c9bfdbe368e489b35c3cdc086a856cfc9b3a466a72"
+                    "url": "https://download.gnome.org/sources/amtk/5.6/amtk-5.6.0.tar.xz",
+                    "sha256": "f3db8797442a9b85062acd0b3e17ac9125a0b487e14216d09b03b08841820eb9"
                 }
             ]
         },
@@ -101,8 +101,8 @@
                         }
                     },
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.3.tar.xz",
-                    "sha256": "c30019506320ca2474d834cced1e2217ea533e00eb2a3f4eb7879007940ec682"
+                    "url": "https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.4.tar.xz",
+                    "sha256": "7ec9d18fb283d1f84a3a3eff3b7a72b09a10c9c006597b3fbabbb5958420a87d"
                 }
             ]
         },
@@ -120,8 +120,8 @@
                         "name": "vte"
                     },
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/vte/0.68/vte-0.68.0.tar.xz",
-                    "sha256": "13e7d4789ca216a33780030d246c9b13ddbfd04094c6316eea7ff92284dd1749"
+                    "url": "https://download.gnome.org/sources/vte/0.70/vte-0.70.1.tar.xz",
+                    "sha256": "1f4601cbfea5302b96902208c8f185e5b18b259b5358bc93cf392bf59871c5b6"
                 }
             ]
         },
