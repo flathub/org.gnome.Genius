@@ -52,8 +52,8 @@
                         "url-template": "https://ftp.gnu.org/gnu/ncurses/ncurses-$version.tar.gz"
                     },
                     "type": "archive",
-                    "url": "https://ftp.gnu.org/gnu/ncurses/ncurses-6.3.tar.gz",
-                    "sha256": "97fc51ac2b085d4cde31ef4d2c3122c21abc217e9090a43a30fc5ec21684e059"
+                    "url": "https://ftp.gnu.org/gnu/ncurses/ncurses-6.4.tar.gz",
+                    "sha256": "6931283d9ac87c5073f30b6290c4c75f21632bb4fc3603ac8100812bed248159"
                 }
             ]
         },
@@ -67,8 +67,8 @@
                         "url-template": "https://www.mpfr.org/mpfr-current/mpfr-$version.tar.xz"
                     },
                     "type": "archive",
-                    "url": "https://www.mpfr.org/mpfr-current/mpfr-4.1.0.tar.xz",
-                    "sha256": "0c98a3f1732ff6ca4ea690552079da9c597872d30e96ec28414ee23c95558a7f"
+                    "url": "https://www.mpfr.org/mpfr-current/mpfr-4.2.0.tar.xz",
+                    "sha256": "06a378df13501248c1b2db5aa977a2c8126ae849a9d9b7be2546fb4a9c26d993"
                 }
             ]
         },
@@ -82,8 +82,8 @@
                         "name": "amtk"
                     },
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/amtk/5.4/amtk-5.4.1.tar.xz",
-                    "sha256": "7ebabc429b0eebb2b32360c9bfdbe368e489b35c3cdc086a856cfc9b3a466a72"
+                    "url": "https://download.gnome.org/sources/amtk/5.6/amtk-5.6.1.tar.xz",
+                    "sha256": "d50115b85c872aac296934b5ee726a3fa156c6f5ad96d27e0edd0aa5ad173228"
                 }
             ]
         },
@@ -101,8 +101,8 @@
                         }
                     },
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.3.tar.xz",
-                    "sha256": "c30019506320ca2474d834cced1e2217ea533e00eb2a3f4eb7879007940ec682"
+                    "url": "https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.4.tar.xz",
+                    "sha256": "7ec9d18fb283d1f84a3a3eff3b7a72b09a10c9c006597b3fbabbb5958420a87d"
                 }
             ]
         },
@@ -120,8 +120,8 @@
                         "name": "vte"
                     },
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/vte/0.68/vte-0.68.0.tar.xz",
-                    "sha256": "13e7d4789ca216a33780030d246c9b13ddbfd04094c6316eea7ff92284dd1749"
+                    "url": "https://download.gnome.org/sources/vte/0.72/vte-0.72.0.tar.xz",
+                    "sha256": "40fe914d6c70db34176c922725b6c6ea15d5f3cb2a9b44c57e200a5f950a6736"
                 }
             ]
         },
