@@ -5,18 +5,20 @@
   <launchable type="desktop-id">org.gnome.Genius.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
-  <developer_name>Jiri (George) Lebl</developer_name>
+  <developer id="org.jirka">
+    <name>Jiri (George) Lebl</name>
+  </developer>
   <summary>Genius is a general purpose calculator program</summary>
   <url type="homepage">http://www.jirka.org/genius.html</url>
   <url type="help">https://www.jirka.org/genius-documentation/index.html</url>
-  <url type="bugtracker">https://gitlab.gnome.org/GNOME/genius/</url>
+  <url type="bugtracker">https://gitlab.gnome.org/GNOME/genius/-/issues</url>
+  <url type="vcs-browser">https://gitlab.gnome.org/GNOME/genius/</url>
   <description>
     <p>Genius is a general purpose calculator program similar in some aspects to BC, Matlab, Maple or Mathematica. 
       It is useful both as a simple calculator and as a research or educational tool. 
       The syntax is very intuitive and is designed to mimic how mathematics is usually written. 
       GEL is the name of its extension language, it stands for Genius Extension Language, clever isn't it? 
       In fact, many of the standard genius functions are written in GEL itself.</p>
-
     <p>What can it do?</p>
     <ul>
     <li>Arbitrary precision integers, multiple precision floats.</li>
@@ -40,15 +42,15 @@
     </ul>
   </description>
   <screenshots>
-    <screenshot>
-      <image type="source">http://www.jirka.org/images/genius-1.0.19-sierpinski-fs8.png</image>
+    <screenshot type="default">
+      <image type="source">https://www.jirka.org/images/genius-1.0.19-sierpinski-fs8.png</image>
     </screenshot>
     <screenshot>
-      <image type="source">http://www.jirka.org/images/genius-1.0.19-lorenz-fs8.png</image>
+      <image type="source">https://www.jirka.org/images/genius-1.0.19-lorenz-fs8.png</image>
     </screenshot>
   </screenshots>
   <releases>
-    <release version="1.0.27" date="2021-10-27"/>
+    <release date="2021-10-27" version="1.0.27"/>
     <release date="2021-02-19" version="1.0.26"/>
     <release date="2020-03-05" version="1.0.25"/>
     <release date="2018-05-15" version="1.0.24"/>
