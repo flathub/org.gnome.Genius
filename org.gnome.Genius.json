@@ -18,16 +18,9 @@
         "/include",
         "/lib/girepository-1.0",
         "/lib/pkgconfig",
-        "/man",
-        "/share/aclocal",
-        "/share/doc",
         "/share/gir-1.0",
         "/share/glade",
-        "/share/pkgconfig",
-        "/share/gtk-doc",
-        "/share/man",
-        "*.la",
-        "*.a"
+        "/share/xdg-terminals"
     ],
     "modules": [
         "shared-modules/intltool/intltool-0.51.json",
@@ -46,7 +39,8 @@
                     },
                     "type": "git",
                     "url": "https://gitlab.gnome.org/World/gedit/libgedit-amtk.git",
-                    "tag": "5.9.2"
+                    "tag": "5.9.2",
+                    "commit": "117f27534d74c164f7f5d0d034189688720d6630"
                 }
             ]
         },
@@ -89,8 +83,8 @@
                         "name": "vte"
                     },
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/vte/0.82/vte-0.82.2.tar.xz",
-                    "sha256": "e1295aafc4682b3b550f1235dc2679baa0f71570d8ed543c001c1283d530be91"
+                    "url": "https://download.gnome.org/sources/vte/0.82/vte-0.82.3.tar.xz",
+                    "sha256": "6dc6278f6fee30d07d1a03e2ba3335b1ea4e8d2956ceb59d861943115d930a85"
                 }
             ]
         },
@@ -104,8 +98,8 @@
                         "url-template": "http://ftp.5z.com/pub/genius/genius-$version.tar.xz"
                     },
                     "type": "archive",
-                    "url": "http://ftp.5z.com/pub/genius/genius-1.0.27.tar.xz",
-                    "sha256": "39098d0054ccc60b4b0ff6ca37276c72eea73806082d4c2e9738a29b7c78b20a"
+                    "url": "http://ftp.5z.com/pub/genius/genius-1.0.29.tar.xz",
+                    "sha256": "8a24484cfcc369137f9187cf10616fe75e3c52af5344dbaae0e80031a1c8f2e0"
                 },
                 {
                     "type": "file",
