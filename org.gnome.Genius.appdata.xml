@@ -9,7 +9,7 @@
     <name>Jiri (George) Lebl</name>
   </developer>
   <summary>Genius is a general purpose calculator program</summary>
-  <url type="homepage">http://www.jirka.org/genius.html</url>
+  <url type="homepage">https://www.jirka.org/genius.html</url>
   <url type="help">https://www.jirka.org/genius-documentation/index.html</url>
   <url type="bugtracker">https://gitlab.gnome.org/GNOME/genius/-/issues</url>
   <url type="vcs-browser">https://gitlab.gnome.org/GNOME/genius/</url>
@@ -50,11 +50,27 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release date="2021-10-27" version="1.0.27"/>
-    <release date="2021-02-19" version="1.0.26"/>
-    <release date="2020-03-05" version="1.0.25"/>
-    <release date="2018-05-15" version="1.0.24"/>
-    <release date="2017-05-10" version="1.0.23"/>
+    <release version="1.0.29" date="2026-03-12">
+      <url>https://www.jirka.org/genius.NEWS</url>
+    </release>
+    <release version="1.0.28" date="2026-03-05">
+      <url>https://www.jirka.org/genius.NEWS</url>
+    </release>
+    <release version="1.0.27" date="2021-10-27">
+      <url>https://www.jirka.org/genius.NEWS</url>
+    </release>
+    <release version="1.0.26" date="2021-02-19">
+      <url>https://www.jirka.org/genius.NEWS</url>
+    </release>
+    <release version="1.0.25" date="2020-03-05">
+      <url>https://www.jirka.org/genius.NEWS</url>
+    </release>
+    <release version="1.0.24" date="2018-05-15">
+      <url>https://www.jirka.org/genius.NEWS</url>
+    </release>
+    <release version="1.0.23" date="2017-05-10">
+      <url>https://www.jirka.org/genius.NEWS</url>
+    </release>
   </releases>
   <content_rating type="oars-1.1"/>
   <update_contact>nick_at_nedrichards.com</update_contact>
